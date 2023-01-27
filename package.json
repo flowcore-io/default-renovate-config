@@ -1,0 +1,14 @@
+{
+  "name": "default-renovate-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:flowcore-io/default-renovate-config.git",
+  "author": "Julius á Rógvi Biskopstø <jbiskur@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.32.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.3"
+  }
+}

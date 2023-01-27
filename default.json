@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base",
+    "schedule:nonOfficeHours",
+    "npm:unpublishSafe",
+    "group:allNonMajor",
+    "group:recommended",
+    "packages:react",
+    "packages:eslint",
+    "packages:apollographql",
+    "monorepo:nest",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":dependencyDashboard"
+  ]
+}
