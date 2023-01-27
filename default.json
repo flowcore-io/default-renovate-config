@@ -12,5 +12,19 @@
     ":automergeMinor",
     ":automergeRequireAllStatusChecks",
     ":dependencyDashboard"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "^@jbiskur"
+      ],
+      "groupName": "jbiskur packages"
+    },
+    {
+      "matchPackagePatterns": [
+        "^@flowcore"
+      ],
+      "groupName": "flowcore packages"
+    }
   ]
 }
